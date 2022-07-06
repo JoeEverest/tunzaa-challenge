@@ -81,6 +81,10 @@ footer {
 	padding: 10px 50px;
 	width: -webkit-fill-available;
 }
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+}
 .footer-links {
 	display: flex;
 	list-style: none;

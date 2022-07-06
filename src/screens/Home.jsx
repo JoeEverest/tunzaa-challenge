@@ -30,7 +30,7 @@ function Home() {
 					</Link>
 				</div>
 			</div>
-			<Footer />
+			<Footer additionalCLasses="fixed-bottom" />
 		</>
 	);
 }
