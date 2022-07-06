@@ -1,0 +1,115 @@
+body,
+html {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: Lato;
+}
+a {
+	text-decoration: none !important;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 50px;
+}
+.title {
+	background-color: #434343;
+	color: #fff;
+	padding: 10px 50px;
+}
+.movie-item {
+	width: 180px;
+	margin: 10px;
+}
+.movie-item img {
+	width: 100%;
+}
+.movie-item p {
+	color: #000;
+}
+.color-white {
+	color: #fff;
+}
+.image-placeholder {
+	width: 180px;
+	height: 240px;
+	background-color: #1e1e1e;
+	background-image: url("https://github.com/amawalla/js-coding-challenge/raw/master/assets/placeholder.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image-placeholder img {
+	position: relative;
+	height: 100%;
+}
+.image-placeholder h2 {
+	color: white;
+	text-decoration: none !important;
+	padding: 10px;
+}
+nav {
+	/* height: 50px; */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	background-color: #0180ff;
+	padding: 0 50px;
+}
+nav div span {
+	margin-right: 20px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+nav div button {
+	background-color: #434343;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+}
+footer {
+	background-color: #1e1e1e;
+	color: #fff;
+	padding: 10px 50px;
+    width: -webkit-fill-available;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+.footer-links li {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+}
+.footer-links li:last-child {
+    border-right: none;
+}
+.footer-content-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content-bottom .left img{
+    height: 40px;
+    margin: 10px;
+}
+.footer-content-bottom .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-content-bottom .right img{
+    margin-right: 10px;
+    height: 50px;
+}
