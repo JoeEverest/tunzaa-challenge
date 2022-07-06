@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 body,
 html {
 	margin: 0 !important;
 	padding: 0 !important;
-	font-family: Lato;
+	font-family: Raleway;
 }
 a {
 	text-decoration: none !important;
@@ -78,38 +79,38 @@ footer {
 	background-color: #1e1e1e;
 	color: #fff;
 	padding: 10px 50px;
-    width: -webkit-fill-available;
+	width: -webkit-fill-available;
 }
-.footer-links{
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
+.footer-links {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	align-items: center;
+	padding: 0;
 }
 .footer-links li {
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: 2px solid #fff;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 2px solid #fff;
 }
 .footer-links li:last-child {
-    border-right: none;
+	border-right: none;
 }
-.footer-content-bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer-content-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.footer-content-bottom .left img{
-    height: 40px;
-    margin: 10px;
+.footer-content-bottom .left img {
+	height: 40px;
+	margin: 10px;
 }
-.footer-content-bottom .right{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.footer-content-bottom .right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
-.footer-content-bottom .right img{
-    margin-right: 10px;
-    height: 50px;
+.footer-content-bottom .right img {
+	margin-right: 10px;
+	height: 50px;
 }
